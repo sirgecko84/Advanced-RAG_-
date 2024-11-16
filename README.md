@@ -4,7 +4,7 @@ Chatbot này được phát triển để cung cấp các câu trả lời cho c
 
 ## Cách cài đặt
 Trước tiên hãy lấy openai_api_key tại [API Keys của OpenAI](https://platform.openai.com/settings/organization/api-keys)
-
+Sau đó hãy sửa lại file sample_env.txt thành file .env và thêm thêm tham số openai_api_key
 ### 1. Cài đặt các thư viện cần thiết
 Sử dụng câu lệnh sau để cài đặt các thư viện yêu cầu:
 ```bash
