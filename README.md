@@ -8,7 +8,7 @@ Trước tiên hãy lấy openai_api_key tại [API Keys của OpenAI](https://p
 ### 1. Cài đặt các thư viện cần thiết
 Sử dụng câu lệnh sau để cài đặt các thư viện yêu cầu:
 ```bash
-pip install -r requirements.txt
+pip install -r setup.txt
 ```
 ### 2. Chunking và embedding
 ```bash
