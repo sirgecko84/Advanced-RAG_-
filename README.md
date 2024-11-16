@@ -17,4 +17,4 @@ python prepare_vector_db.py
 
 ### 3. Tạo chatbot
 ```bash
-streamlit qabot.py
+streamlit run qabot.py
