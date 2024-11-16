@@ -44,9 +44,17 @@ def create_db_from_files():
         chunk_size=600,
         chunk_overlap=120,
         length_function=len,
-        is_separator_regex=False
+        separators=["##", "###", "#", "\n#", "\n###", "\n##"]
     )
     chunks = text_splitter.split_documents(document)
+    # Lấy 3 chunk đầu tiên
+    first_three_chunks = chunks[:10]
+    
+    # In từng chunk
+    for i, chunk in enumerate(first_three_chunks, start=1):
+        print(f"Chunk {i}:")
+        print(chunk)
+        print("-" * 20)
     #embedding_model = GPT4AllEmbeddings(model_file = "models/all-MiniLM-L6-v2-f16.gguf")
     # Doi model embedding
     #embedding_model = get_embedding_function()

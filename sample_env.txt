@@ -1,0 +1,2 @@
+# Tạo file .env với các tham số sau
+openai_api_key = your_openai_api
